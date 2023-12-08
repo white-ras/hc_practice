@@ -50,11 +50,11 @@ li {
   padding: 0 15px;
 }
 
-.figure {
+figure {
   height: 600px;
 }
 
-.figure img {
+figure img {
   object-fit: cover;
   height: 100%;
   width: 100%;
@@ -69,15 +69,15 @@ introduce {
   padding: 0px;
 }
 
-.arc .title h2 {
+.profile_images .title h2 {
   margin-bottom: 50px;
 }
 
-.profile_image {
+.introduce_image {
   padding-top: 10px;
 }
 
-.profile_image img {
+.introduce_image img {
   border-radius: 100%;
   width: 100px;
 }
@@ -87,15 +87,15 @@ introduce {
   margin-bottom: 65px;
 }
 
-.archives h3 {
+.profile_image_item h3 {
   padding-top: 0px;
 }
 
-.archives p {
+.profile_image_item p {
   padding-top: 12px;
 }
 
-.archives img {
+.profile_image_item img {
   padding-top: 14px;
   width: 345px;
   margin-bottom: 10px;
@@ -119,7 +119,7 @@ introduce {
     margin-left:5%;
   }
 
-  .profile {
+  .introduce {
     display: inline-flex;
     width: 960px;
     justify-items: center;
@@ -127,21 +127,21 @@ introduce {
   }
 
 
-  .profile_text {
+  .introduce_text {
     margin-left:14.8%;
     text-align: left;
   }
 
-  .profile_image {
+  .introduce_image {
     margin-left: 3.597%;
     margin-top: 3.597%;
   }
 
-  .arc {
+  .profile_images {
     display: inline-block;
   }
 
-  .archives {
+  .profile_image_item {
     width: 840px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
