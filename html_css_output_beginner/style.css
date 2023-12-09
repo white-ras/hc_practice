@@ -1,0 +1,163 @@
+/*iPhoneおよび共通設定*/
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 0 4%;
+  display: flex;
+  margin: 10px 0 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  display:inline-block;
+  font-size: 34px;
+  font-weight: bold;
+  border-bottom: 1px solid;
+
+  padding-top:75px;
+}
+
+h3 {
+  padding-top:50px;
+  font-weight: bold;
+}
+
+p {
+  padding-top: 20px;
+}
+
+span {
+  display: inline-block;
+  color: white;
+  background-color: #374053;
+  padding: 5px 20px;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding-top:10px;
+}
+
+li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+figure {
+  height: 600px;
+}
+
+figure img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+article {
+  text-align: center;
+  padding: 0 4%;
+}
+
+introduce {
+  padding: 0px;
+}
+
+.profile_images .title h2 {
+  margin-bottom: 50px;
+}
+
+.introduce_image {
+  padding-top: 10px;
+}
+
+.introduce_image img {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.introduce h2 {
+  padding-top: 90px;
+  margin-bottom: 65px;
+}
+
+.profile_image_item h3 {
+  padding-top: 0px;
+}
+
+.profile_image_item p {
+  padding-top: 12px;
+}
+
+.profile_image_item img {
+  padding-top: 14px;
+  width: 345px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 100px;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*iPadの設定*/
+@media screen and (min-width: 600px){
+  header {
+    justify-content: space-around;
+    margin-left:5%;
+  }
+
+  ul {
+    margin-left:5%;
+  }
+
+  .introduce {
+    display: inline-flex;
+    width: 960px;
+    justify-items: center;
+    align-items: center;
+  }
+
+
+  .introduce_text {
+    margin-left:14.8%;
+    text-align: left;
+  }
+
+  .introduce_image {
+    margin-left: 3.597%;
+    margin-top: 3.597%;
+  }
+
+  .profile_images {
+    display: inline-block;
+  }
+
+  .profile_image_item {
+    width: 840px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0px;
+    row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .archive {
+    margin-right: 0;
+    width: 280px;
+  }
+  .archive img {
+    width: 95%;
+  }
+
+
+}
